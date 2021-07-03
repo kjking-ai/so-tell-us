@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: flex-start;
   }
-  
+
   .nav ul {
     display: flex;
     justify-content: center;
@@ -18,3 +18,7 @@
   .nav ul li a {
     margin: 5px 15px;
   }
+
+  
+  
+  
