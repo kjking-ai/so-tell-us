@@ -7,6 +7,7 @@ const survey = () => {
 
 
     // Script Area
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [formList, setFormList] = useState<any>([]);
 
     const handleSelectedValue = (e) => {

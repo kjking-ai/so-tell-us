@@ -9,6 +9,7 @@ export const surveys = () => {
 
     const surveyStyles = require('../styles/Surveys.module.css');
     //const SurveyTemplateOne = require('../components/SurveyTemplateOne');
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [active, setActive] = useState(0);
 
     return (
