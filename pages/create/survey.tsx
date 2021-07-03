@@ -2,12 +2,10 @@ import React from 'react'
 import { useState } from 'react';
 import surveyStyles from '../../styles/Survey.module.css'
 
-const survey = () => {
+const Survey = () => {
 
 
 
-    // Script Area
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [formList, setFormList] = useState<any>([]);
 
     const handleSelectedValue = (e) => {
@@ -22,11 +20,6 @@ const survey = () => {
         setFormList(formList.filter(i => i !== value));
     }
     return (
-
-        // List of Form elements
-        // Add form element
-        // delete form element
-        // edit?
         
 
         <div>
@@ -62,4 +55,4 @@ const survey = () => {
 
 
 
-export default survey
+export default Survey

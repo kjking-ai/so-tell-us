@@ -5,11 +5,9 @@ import SurveyTemplateOne from '../components/SurveyTemplateOne'
 import SurveyTemplateTwo from '../components/SurveyTemplateTwo'
 
 
-export const surveys = () => {
+export const SurveySelector = () => {
 
     const surveyStyles = require('../styles/Surveys.module.css');
-    //const SurveyTemplateOne = require('../components/SurveyTemplateOne');
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [active, setActive] = useState(0);
 
     return (
@@ -49,4 +47,4 @@ export const surveys = () => {
 };
 
 
-export default surveys
+export default SurveySelector

@@ -2,10 +2,9 @@ import React, {useState} from 'react'
 import { useRouter } from 'next/router'
 
 
-const id = () => {
-   
-    const router = useRouter();
-    const surveyId = router.query.id;
+const Id = () => {
+    const Router = useRouter();
+    const surveyId = Router.query.id;
     console.log('ID: ', surveyId);
     return (
         <div>
@@ -14,4 +13,4 @@ const id = () => {
     )
 }
 
-export default id
+export default Id
